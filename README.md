@@ -47,7 +47,7 @@ The pipeline consists of the following components:
 
 1. Start all services:
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 2. Access Airflow interface and trigger the DAG (it will connect to the API and stream data for 60 seconds to Kafka Producer)
