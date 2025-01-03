@@ -4,7 +4,7 @@
 This project implements a modern real-time data engineering pipeline that processes streaming data through a distributed architecture. The system leverages Apache Kafka for stream processing, Apache Spark for data transformation, and Cassandra for data storage, all orchestrated using Apache Airflow and containerized with Docker.
 
 ## Architecture
-[Architecture Diagram]
+![Architecture Diagram](/data-arq.png)
 
 The pipeline consists of the following components:
 
